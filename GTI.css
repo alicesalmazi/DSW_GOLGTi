@@ -1,0 +1,72 @@
+/* gti.css */
+.carousel {
+    width: 100vw; /* Ocupa toda a largura da tela */
+    position: relative; /* Necessário para o posicionamento absoluto das imagens */
+    left: 50%; /* Centraliza o carrossel */
+    right: 50%; /* Centraliza o carrossel */
+    margin-left: -50vw; /* Ajusta para o lado esquerdo */
+    margin-right: -50vw; /* Ajusta para o lado direito */
+}
+
+.carousel img {
+    width: 100%; /* Faz com que a imagem ocupe 100% da largura do carrossel */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.carousel-item {
+    height: 60vh; /* Define uma altura para os itens do carrossel */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Cobre o espaço do carrossel sem distorcer a imagem */
+    height: 100%; /* Garante que a imagem ocupe a altura definida */
+    width: 100%; /* Garante que a imagem ocupe a largura definida */
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra do texto */
+    color: white; /* Cor do texto */
+}
+#carouselExampleDark {
+    margin-bottom: 40px; /* Ajuste o valor conforme necessário */
+}
+.titulo-container {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0.3) 100%); /* Fundo degradê radial */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.titulo {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra do texto */
+    color: white; /* Cor do texto */
+    margin: 0; /* Remove a margem padrão do h5 */
+    text-align: center;
+}
+.end-container {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0.3) 100%); /* Fundo degradê radial */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.end {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra do texto */
+    color: white; /* Cor do texto */
+    margin: 0; /* Remove a margem padrão do h5 */
+    text-align: center;
+}
+.footer {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0.7) 100%); /* Fundo com maior opacidade */
+    padding: 20px; 
+    color: white; /* Mantém o texto em branco */
+    text-align: center;
+}
+.footer h5,
+.footer p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Aumenta a sombra do texto para maior contraste */
+}
